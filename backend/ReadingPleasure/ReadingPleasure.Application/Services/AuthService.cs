@@ -46,7 +46,8 @@ namespace ReadingPleasure.Application.Services
 
             return new AuthResponseDto
             {
-                AccessToken = jwtAccessToken
+                AccessToken = jwtAccessToken,
+                User = user,
             };
         }
 
